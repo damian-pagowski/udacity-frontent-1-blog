@@ -1,0 +1,47 @@
+#author {
+  padding: 2rem 0 0 4rem;
+  display: flex;
+  flex-direction: row;
+}
+.author-details {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.autor-name {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.author-title {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.bio {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#article-title {
+  text-align: center;
+}
+#article-title h1 {
+  margin-top: 3rem;
+}
+
+#post-details {
+  padding: 4rem;
+  margin: auto;
+  text-align: justify;
+  line-height: 2rem;
+}

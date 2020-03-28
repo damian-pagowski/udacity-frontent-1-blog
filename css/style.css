@@ -1,0 +1,47 @@
+@import "./navbar.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./blog.css";
+@import "./icons.css";
+@import "./blog-cards.css";
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: lightgray;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.fr 1fr 8fr 1fr;
+  grid-template-areas: "navbar" "header" "post-list" "footer";
+}
+#post-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.post-list {
+  grid-area: post-list;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.thick {
+  font-weight: bold;
+}
